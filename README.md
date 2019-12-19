@@ -1,7 +1,7 @@
 CMB2 Attached Posts Field
 ==================
 
-Custom field for [CMB2](https://github.com/WebDevStudios/CMB2).
+This is a fork of Custom field for [CMB2](https://github.com/WebDevStudios/CMB2) which adds the ability to limit attached posts.
 
 The post IDs are saved in an array, which can be rearranged by dragging and dropping posts in the attached posts column. Now incorporates the same search field as the [CMB2 Post Search field](https://github.com/WebDevStudios/CMB2-Post-Search-field).
 
@@ -32,13 +32,16 @@ Once you have the post data for the post ID, you can proceed with the desired fu
 
 ## Screenshots
 
-1. Field display  
+1. Field display
 ![Field display](https://raw.githubusercontent.com/WebDevStudios/cmb2-attached-posts/master/attached-posts-field.png)`
 
-1. Post search  
+1. Post search
 ![Post search](https://raw.githubusercontent.com/WebDevStudios/cmb2-attached-posts/master/attached-posts-search.gif)`
 
 ## Changelog
+
+### 1.2.8
+* Added support to limit posts that can be attached. See example-field-setup.php for demo.
 
 ### 1.2.7
 * Add default column display output. Simply add `'column' => true,` to your field registration.
